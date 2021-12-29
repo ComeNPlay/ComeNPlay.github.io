@@ -1,0 +1,104 @@
+<!-- 
+1、含bootstrap、jQuery 
+2、需联网才能使用
+3、
+-->
+<!doctype html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>xxxxxxxxxx</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				overflow: hidden;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body style="padding-top: 50px;">
+		<!-- 页面顶部导航条 -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- 移动端页面 -->
+				<div class="navbar-header">
+					<!-- 移动端右侧三个横线 点击后显示隐藏的内容 -->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#phone_navbar_hidden_infor">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>					
+					<!-- 移动端非隐藏内容 -->
+					<a class="navbar-brand" href="#">Brand</a>
+				</div>
+
+
+				<!-- pc端页面/移动端被隐藏内容 -->
+				<div class="collapse navbar-collapse" id="phone_navbar_hidden_infor">
+					<!-- 展示文字部分 -->
+					<ul class="nav navbar-nav">
+						<!-- 文字内容一 -->
+						<li class="active">
+							<a href="#">Link1</a>
+						</li>
+						<!-- 文字内容二 -->
+						<li>
+							<a href="#">Link2</a>
+						</li>
+						<!-- 文字内容三/下拉菜单 -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+								Link3 <span class="caret"></span>
+							</a>
+							<!-- 下拉菜单内容 -->
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<!-- 搜索框 -->
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+
+					<!-- 导航条右侧 -->
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Link</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+								Link4 <span class="caret"></span>
+							</a>
+							<!-- 下拉菜单内容 -->
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+		</script>
+		<script type="text/javascript">
+
+		</script>
+	</body>
+</html>
